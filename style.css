@@ -1,0 +1,209 @@
+/* import fonts */
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Lobster);
+
+
+body {
+  text-align: center;
+  background-color: rgba(192, 192, 192, 0.2);
+  font-size: 1em;
+}
+.navbar, .navbar-inverse {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  min-height: 55px;
+}
+
+.btn-primary-outline:hover {
+  background-color: #ffffff;
+  
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em !important;
+  color: lightgray !important;
+}
+.nav li {
+  display: inline;
+}
+.nav, .navbar-nav {
+  float: right !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff !important;
+  font-family: Lato !important;
+  font-size: 1.5em !important;
+  font-weight: 300 !important;
+  padding: 20px 25px 20px 25px !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #333333 !important;
+  color: lightgray !important;
+  transition: 0.2s all linear !important;
+  height: 100% !important;
+}
+
+
+#bottomLink {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+ 
+  padding-bottom: 2%;
+}
+
+p#about-arrow {
+  margin-top: 5%;
+}
+#portfolio-arrow {
+  display: block;
+  margin-right: 25%;
+  
+}
+
+
+div.custom-container button:hover {
+  background-color: lightgray;
+}
+
+img.custom-img {
+  display: block;
+  margin: 2% auto 3% auto;
+  height: 300px;
+  width: 350px;
+}
+
+
+div#Home {
+  padding-top: 5%;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+div#About {
+	margin-top: 10%;
+  height: 600px;
+  width: 100%;
+  padding-top: 20%;
+  text-align: center;
+}
+.panel-heading {
+  font-size: 2.5em;
+  
+}
+
+.panel-body {
+  font-size: 1.5em;
+}
+
+div#Portfolio {
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  margin: 0 10% 15% 10%;
+  text-align: center;
+}
+
+div#Contact {
+  clear: both;
+  height: 1200px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+
+#down-arrow {
+  text-align: center;
+  margin: 2% auto 0 auto;
+  border: 1px solid darkgray;
+  border-radius: 100%;
+  padding: .5em;
+  font-size: 2em;
+  color: darkgray;
+}
+
+#down-arrow:hover {
+  border-color: #428bca;
+  color: #428bca;
+}
+
+h2 {
+  margin-top: 4%;
+  left: 10%;
+  color: #1a2;
+}
+
+legend {
+  font-weight: bolder;
+}
+
+form {
+  background-color: lightgray;
+  width: 50%;
+  margin: 0 auto 1% auto;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: .25em;
+  padding: .25em;
+  font-size: 1em;
+}
+
+label {
+  margin-left: 2%;
+}
+
+input[type="submit"] {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 820px) {
+  body {
+    display: block;
+  }
+
+  
+
+.custom-container {
+  margin: 5%;
+}
+ .thumbnail {
+  display: block;
+  width: 80%;
+  margin: .5em auto .5em auto;
+}
+  
+  div#Home {
+  display: block;
+  margin-top: 5% auto 2% auto;
+  height: 600px;
+  width: 90%;
+  text-align: center;
+}
+  
+  .btn {
+    display: block;
+    margin: .5em;
+	margin-left: 10%;
+  }
+
+  
+  div#Portfolio {
+  display: block;
+  height: 700px;
+  width: 80%;
+  text-align: center;
+  margin: .5em auto .5em auto;
+  }
+  /
+
+}
